@@ -22,51 +22,101 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center flex-row py-20">
-        <div className="px-20">
+      <div className="flex lg:items-center justify-center lg:flex-row md:flex-wrap py-20 flex-col sm:items-start ">
+        <div className="lg:px-20  px-5 ">
           <ul>
-            <li>Company</li>
-            <li>About Us</li>
-            <li>Pricing</li>
-            <li>Contact Us</li>
-            <li>Features</li>
+            <li className="font-inter  font-bold text-[16px] py-3">Company</li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              About Us
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Pricing
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Contact Us
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Features
+            </li>
           </ul>
         </div>
-        <div className="px-20">
+        <div className="lg:px-20  px-5">
           <ul>
-            <li>Product</li>
-            <li>Figma Design System</li>
-            <li>Ios Kit</li>
-            <li>Android Kit</li>
-            <li>Wireframe</li>
+            <li className="font-inter font-bold text-[16px] py-3">Product</li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Figma Design System
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Ios Kit
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Android Kit
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Wireframe
+            </li>
           </ul>
         </div>
-        <div className="px-20">
+        <div className="lg:px-20  px-5">
           <ul>
-            <li>Resources</li>
-            <li>Templates</li>
-            <li>Landing Pages</li>
-            <li>Documentation</li>
-            <li>Comp Library</li>
+            <li className="font-inter font-bold text-[16px] py-3">Resources</li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Templates
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Landing Pages
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Documentation
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Comp Library
+            </li>
           </ul>
         </div>
-        <div className="px-20">
+        <div className="lg:px-20  px-5">
           <ul>
-            <li>Legal</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-            <li> Disclaimer</li>
-            <li>Affiliate Programs</li>
+            <li className="font-inter font-bold text-[16px] py-3">Legal</li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Privacy Policy
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Terms & Conditions
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              {" "}
+              Disclaimer
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Affiliate Programs
+            </li>
           </ul>
         </div>
-        <div className="px-20">
+        <div className="lg:px-20  px-5">
           <ul>
-            <li>Support</li>
-            <li>Help Centre</li>
-            <li>Raise Ticket</li>
-            <li>Report</li>
-            <li>Refund</li>
+            <li className="font-inter font-bold text-[16px] py-3">Support</li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Help Centre
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Raise Ticket
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Report
+            </li>
+            <li className="font-inter font-medium text-[#363C46] py-1">
+              Refund
+            </li>
           </ul>
+        </div>
+      </div>
+
+      <div className="flex md:items-center justify-center flex-col sm:items-start">
+        <div className="p-4">
+          <img src={"/images/social.png"} alt="Example" className="" />
+        </div>
+        <div className="pb-10 pl-4 font-inter text-[#5A6475]">
+          © 2023 Mode UI Inc. All Rights Reserved.
         </div>
       </div>
     </>

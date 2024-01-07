@@ -4,20 +4,7 @@ import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
-// const navLinks = [
-//   {
-//     title: "About",
-//     path: "#about",
-//   },
-//   {
-//     title: "Prjects",
-//     path: "#projects",
-//   },
-//   {
-//     title: "Contact",
-//     path: "#contact",
-//   },
-// ];
+
 
 const Navbar = () => {
   const [NavbarOpen, setNavbarOpen] = useState(true);
