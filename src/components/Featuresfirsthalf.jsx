@@ -1,6 +1,7 @@
 import React from 'react'
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 // import image";
+import Card from "../components/images/Card.png";
 
 const Featuresfirsthalf = () => {
   return (
@@ -31,10 +32,10 @@ const Featuresfirsthalf = () => {
 
       <div className="flex items-center justify-center md:flex-row flex-col">
         <div>
-          <img src={"/images/mobile.png"} className='p-5' alt="Example" />
+          <img src={"/images/mobile.png"} className="p-5" alt="Example" />
         </div>
         <div>
-          <img src={"/images/card.png"}  alt="Example" />
+          <img src={Card} alt="Description" />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Rating from '../components/images/Rating.png'
 
 const Testimonials = () => {
   return (
@@ -22,7 +23,7 @@ const Testimonials = () => {
         <img src={"/images/avatar.png"} alt="Example" className="pb-3" />
         <h2 className="font-inter text-[16px] font-medium">Nick Babich</h2>
         <h2 className="text-[14px] pb-2">Lead Designer</h2>
-        <img src={"/images/rating.png"} alt="Example" className='pb-20'/>
+        <img src={Rating} alt="Description" className='pb-20' />
       </div>
     </div>
   );

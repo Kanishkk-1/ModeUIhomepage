@@ -1,4 +1,5 @@
 import React from 'react'
+import Social from '../components/images/Social.png'
 
 const Footer = () => {
   return (
@@ -113,7 +114,7 @@ const Footer = () => {
 
       <div className="flex md:items-center justify-center flex-col sm:items-start">
         <div className="p-4">
-          <img src={"/images/social.png"} alt="Example" className="" />
+          <img src={Social} alt="Description" />
         </div>
         <div className="pb-10 pl-4 font-inter text-[#5A6475]">
           © 2023 Mode UI Inc. All Rights Reserved.
