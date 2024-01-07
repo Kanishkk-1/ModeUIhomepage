@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       <div className="flex  items-center justify-between py-8 border-[#E6E7E9] border-2">
-        <div className="lg:pl-20">
+        <div className="md:pl-20  pl-10">
           <img src={"/images/Herologo.png"} alt="Example" />
         </div>
         <div className=" lg:block hidden ">
@@ -39,7 +39,7 @@ const Navbar = () => {
               <img src={"/images/login.jpg"} alt="Example" />
             </button>
           </div>
-          <div className="lg:hidden mobile-menu pt-2 md:pr-20 sm:pr-11">
+          <div className="lg:hidden mobile-menu pt-2 md:pr-20 pr-11">
             {NavbarOpen ? (
               <button onClick={handleToggleNavbar} className="">
                 <Bars3Icon className="h-7 w-7" />
