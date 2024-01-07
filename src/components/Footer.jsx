@@ -28,10 +28,10 @@ const Footer = () => {
           <ul>
             <li className="font-inter  font-bold text-[16px] py-3">Company</li>
             <li className="font-inter font-medium text-[#363C46] py-1">
-              About Us
+              About Us.
             </li>
             <li className="font-inter font-medium text-[#363C46] py-1">
-              Pricing
+              Pricing.
             </li>
             <li className="font-inter font-medium text-[#363C46] py-1">
               Contact Us
